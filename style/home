@@ -1,1 +1,18 @@
-    
+    body{
+  background-color:rgb(219, 223, 224);
+
+}
+
+.navbar{
+ background-color:#ff4d4d;
+ 
+}
+
+#nav-menu{
+ margin-right: 50px;
+}
+@media  (min-width: 800px) {  
+ strong{
+  font-size: 20px;
+ } 
+}
