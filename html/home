@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -16,14 +15,15 @@
 <body>
   <div>
       <nav class="navbar navbar-expand-lg row navbar-dark ">
-          <div class="offset-1  ml-40">
+          <div class="offset-1 col-3  ml-40">
              <a class="navbar-brand" href="#">
-                <span class="fa fa-home fa-2x"></span>
+               <img class="img-fluid" width="20%" height=auto src="https://www.logoarena.com/contestimages/public_new/7027/14449_1462635341_theroom2.jpg">
+                
                  <strong>HOUSEE</strong>
              </a>  
           </div>
           
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false">
+          <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -46,7 +46,12 @@
 
           </div>
       </nav>
-  </div>  
+  </div>
+  <!--navbar complete-->
+  <!--body 1 of image part-->
+  <div id="body1">
+     
+  </div>
 
 </body>
 
