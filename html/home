@@ -12,6 +12,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
   <div class="mb-0">
       <nav class="navbar navbar-expand-lg row navbar-dark ">
@@ -103,18 +104,208 @@
   </div>
   
   <!--body0 end-->
-  <h3 class="ml-3">Houses & Apartments</h3>
+  <h3 class="ml-3 mb-4">Houses & Apartments</h3>
   <!--body 1 of image part-->
   <div id="body1">
       <div class="row">
-        <div class="col-3 ml-4">
+        <div class="col-sm-3 ml-4">
           <h5 class=" ">Filter</h5>
         <hr>
-        </div>
+          <div class="panel-group">
+              <div class="panel">
+                 <div class="panel-heading">
+                    <h5 class="panel-title ">
+                      Catagory
 
-        <div class="col-9">
+                      <a class="" data-toggle="collapse" href="#catagory">
+                        <i class="fa fa-angle-down fa-lg"></i>
+                      </a>
+                    
+                    </h5>
 
+                 </div>
+                 <div id="catagory" class="panel-collapse collapse">
+                    <ul class="list-group list-group-flush">  <li class="list-group-item">For Rent House </li>
+                    <li class="list-group-item">For Rent Shops and Office </li>
+                    <li class="list-group-item">PG and Hostels </li>
+                  </ul>
+                 </div>
+              </div>
+              <hr>
+              <div class="panel">
+                <div class="panel-heading">
+                   <h5 class="panel-title">
+                     Location
+                     <a class="" data-toggle="collapse" href="#location">
+                      <i class="fa fa-angle-down fa-lg"></i>
+                     </a>
+                   </h5>
+
+                </div>
+                <div class="panel-collapse collapse"
+                id="location">
+                <ul class="list-group list-group-flush">     <li class="list-group-item">Jankipuram </li>
+                    <li class="list-group-item">Aliganj </li>
+                    <li class="list-group-item">Quisar Bagh </li>
+                    <li class="list-group-item">Hazratganj  </li>
+
+                  </ul>
+                </div>
+              </div>              
+              <hr>
+              <div class="panel">
+                <div class="panel-heading">
+                   <h5 class="panel-title">
+                     Price
+                     <a class="" data-toggle="collapse" href="#price">
+                      <i class="fa fa-angle-down fa-lg"></i>
+                     </a>
+                   </h5>
+
+                </div>
+                <div class="panel-collapse collapse"
+                id="price">
+                <ul class="list-group list-group-flush">    <li class="list-group-item"> Below 1000</li>
+                    <li class="list-group-item">Below 2000 </li>
+                    <li class="list-group-item">Below 3000 </li>
+                    <li class="list-group-item">Below 4000 </li>
+                    <li class="list-group-item">Below 5000 </li>
+
+                  </ul>
+                </div>
+              </div>
+              <hr>
+              <div class="panel">
+                <div class="panel-heading">
+                   <h5 class="panel-title">
+                     Bedroom
+                     <a class="" data-toggle="collapse" href="#bedroom">
+                      <i class="fa fa-angle-down fa-lg"></i>
+                     </a>
+                   </h5>
+
+                </div>
+                <div class="panel-collapse collapse"
+                id="bedroom">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Single </li>
+                    <li class="list-group-item">Double </li>
+                    <li class="list-group-item">Three</li>
+
+                  </ul>
+              </div>
+              </div>
+              <hr>
+              <div class="panel">
+                <div class="panel-heading">
+                   <h5 class="panel-title">
+                    Furnised
+                    <a class="" data-toggle="collapse" href="#furnised">
+                      <i class="fa fa-angle-down fa-lg"></i>
+                     </a>
+                   </h5>
+
+                </div>
+                <div class="panel-collapse collapse"
+                id="furnised">
+                <ul class="list-group list-group-flush">    <li class="list-group-item ">Full Furnised </li>
+                    <li class="list-group-item">Semi-Furnised </li>
+                    <li class="list-group-item">Unfurnised </li>
+
+                  </ul>
+                </div>
+              </div>
+
+          </div>
         </div>
+        <!--filter part-->
+        <div class="col-sm-8 ml-4">
+          <div class="row">
+            <div class="card price5 bed3 aliganj apart">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTiQi386Whcf-QFh35g0n4IEQyMKIbNIyvStywC9inH5jKSMiAI" class="card-img-top" alt=".">
+                <div class="card-body">
+                  <h5 class="card-title"> 5000</h5>
+                  <strong class="card-subtitle">Aliganj</strong>
+                  <p class="card-text">3 Bedroom Apartment <br>Bike-Parking</p>
+                  <a href="#" class="btn btn-info">Click for Info</a>
+                </div>
+              </div>
+
+              <div class="card price4 bed3 aliganj house">
+                  <img src="https://images.pexels.com/photos/102175/pexels-photo-102175.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt=".">
+                  <div class="card-body">
+                    <h5 class="card-title"> 4000</h5>
+                    <strong class="card-subtitle">Aliganj</strong>
+                    <p class="card-text">3 Bedroom House <br>Car-parking</p>
+                    <a href="#" class="btn btn-info">Click for Info</a>
+                  </div>
+                </div>
+                <div class="card price2 shop hazratganj " >
+                    <img src="https://images.pexels.com/photos/356807/pexels-photo-356807.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt=".">
+                    <div class="card-body">
+                      <h5 class="card-title"> 2000</h5>
+                      <strong class="card-subtitle">Hazratganj</strong>
+                      <p class="card-text">Shop Bike-Parking</p>
+                      <a href="#" class="btn btn-info">Click for Info</a>
+                    </div>
+                  </div>
+                  <div class="card price3 bed2 apart quisarbagh">
+                      <img src="https://images.pexels.com/photos/190407/pexels-photo-190407.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt=".">
+                      <div class="card-body">
+                        <h5 class="card-title"> 3000</h5>
+                        <strong class="card-subtitle">Quisar Bagh</strong>
+                        <p class="card-text">2 Bedroom Apartment</p>
+                        <a href="#" class="btn btn-info">Click for Info</a>
+                      </div>
+                    </div>
+                    <div class="card price5 bed3 jankipuram house">
+                        <img src="https://images.pexels.com/photos/210017/pexels-photo-210017.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt=".">
+                        <div class="card-body">
+                          <h5 class="card-title"> 5000</h5>
+                          <strong class="card-subtitle">Jankipuram</strong>
+                          <p class="card-text">3 Bedroom House <br>No parking</p>
+                          <a href="#" class="btn btn-info">Click for Info</a>
+                        </div>
+                      </div>
+                      <div class="card price2 quisarbagh Shop">
+                          <img src="https://images.pexels.com/photos/461862/pexels-photo-461862.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt=".">
+                          <div class="card-body">
+                            <h5 class="card-title"> 2000</h5>
+                            <strong class="card-subtitle">Quisar Bagh</strong>
+                            <p class="card-text">Shop </p>
+                            <a href="#" class="btn btn-info">Click for Info</a>
+                          </div>
+                        </div>
+                        <div class="card price1 bed1 aliganj house">
+                            <img src="https://images.pexels.com/photos/415687/pexels-photo-415687.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt=".">
+                            <div class="card-body">
+                              <h5 class="card-title"> 1000</h5>
+                              <strong class="card-subtitle">Aliganj</strong>
+                              <p class="card-text">1 Bedroom Apartment</p>
+                              <a href="#" class="btn btn-info">Click for Info</a>
+                            </div>
+                          </div>
+                          <div class="card price4 jankipuram apart bed2">
+                              <img src="https://images.pexels.com/photos/2545049/pexels-photo-2545049.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt=".">
+                              <div class="card-body">
+                                <h5 class="card-title"> 4000</h5>
+                                <strong class="card-subtitle">Jankipuram</strong>
+                                <p class="card-text">2 Bedroom Apartment</p>
+                                <a href="#" class="btn btn-info">Click for Info</a>
+                              </div>
+                            </div>
+                            <div class="card price5 hazratganj house bed3">
+                                <img src="https://images.pexels.com/photos/208560/pexels-photo-208560.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt=".">
+                                <div class="card-body">
+                                  <h5 class="card-title"> 5000</h5>
+                                  <strong class="card-subtitle">Hazratganj</strong>
+                                  <p class="card-text">3 Bedroom House<br> Bike Parking</p>
+                                  <a href="#" class="btn btn-info">Click for Info</a>
+                                </div>
+                              </div>
+                                                                                                      
+        </div>
+      </div>
       </div>
   </div>
   <!--body1 end-->
