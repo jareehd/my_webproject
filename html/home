@@ -3,7 +3,7 @@
 
 <head>
   <title>HOME PAGE</title>
-
+ 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="../style/home.css">
   <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,7 +13,7 @@
 
 </head>
 <body>
-  <div>
+  <div class="mb-0">
       <nav class="navbar navbar-expand-lg row navbar-dark ">
           <div class="offset-1 col-3  ml-40">
              <a class="navbar-brand" href="#">
@@ -48,11 +48,118 @@
       </nav>
   </div>
   <!--navbar complete-->
+  <!--body0 start-->
+  <div id="body0">
+   <div class="carousel slide carousel-fade" id="body01" data-ride="carousel">
+       <ol class="carousel-indicators">
+          <li data-target="#body01" data-slide-to="0" active></li>
+          <li data-target="#body01" data-slide-to="1"></li>
+          <li data-target="#body01" data-slide-to="2"></li>
+       </ol>
+       <div class="carousel-inner">
+          <div class="carousel-item active" >
+              <img src="http://roundhouseco.com/wp-content/uploads/2018/07/luxury-house-interior-design-styles-3-attractive-mfc-fe-5b4fdd45badc5.jpg
+              " class="carousel-image">
+            
+              <div class="carousel-caption d-none d-md-block">
+                  <h4>
+                      Welcome to Housee
+                  </h4>
+                  <p>Here You get your dream house in very lower prizes</p>
+              </div>
+           </div>
+           <div class="carousel-item" >
+              <img src="http://roundhouseco.com/wp-content/uploads/2018/08/new-home-interior-design-interesting-picture.jpg"
+               class="carousel-image">
+               <div class="carousel-caption d-none d-md-block">
+                  <h4>
+                      Welcome to Housee
+                  </h4>
+                  <p>Here You get your dream house in very lower prizes</p>
+               </div>
+           </div>
+           <div class="carousel-item" >
+              <img src="
+              https://images4.alphacoders.com/764/thumb-1920-764684.jpg
+              "class="carousel-image">
+               <div class="carousel-caption d-none d-md-block">
+                  <h4>
+                      Welcome to Housee
+                  </h4>
+                  <p>Here You get your dream house in very lower prizes</p>
+               </div>
+           </div>
+
+       </div>
+       <a class="carousel-control-prev" href="#body01" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+       </a>
+       <a class="carousel-control-next" href="#body01" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+       </a>
+   </div>
+  </div>
+  
+  <!--body0 end-->
+  <h3 class="ml-3">Houses & Apartments</h3>
   <!--body 1 of image part-->
   <div id="body1">
-     
-  </div>
+      <div class="row">
+        <div class="col-3 ml-4">
+          <h5 class=" ">Filter</h5>
+        <hr>
+        </div>
 
+        <div class="col-9">
+
+        </div>
+      </div>
+  </div>
+  <!--body1 end-->
+  <!--footer start-->
+   
+      <div class="bg-dark ">
+        <div class="container">
+        <div class="row footer">
+              <div class="col-md-3 ">
+                  <h4 class="text-secondary">About</h4>
+                  <p>About Us<br>
+                  Privacy<br>
+                  Help
+                  </p>                  
+              </div>
+         
+              <div class="col-md-3 ">
+                  <h4 class="text-secondary">Contact</h4>
+                  <i class="fa fa-phone"> Tel: 0123 456789</i>
+                  <i class="fa fa-envelope"> Email: housee@hotmail.com</i>
+              </div>
+         
+              <div class="col-md-3 ">
+                  <h4 class="text-secondary">Location</h4>
+                   <p>Sitapur Road,Jankipuram<br>
+                   Engineering Chauraha<br>
+                   Pin: 226021<br>
+                   Lucknow Uttar Pradesh                  
+                  
+              </div>
+         
+              <div class="col-md-3 social">
+                  <h4 class="text-secondary">Social</h4>
+                  
+                  <i class="fa fa-facebook fa-2x" ></i>
+                  <i class="fa fa-twitter fa-2x"></i>
+                  <i class="fa fa-linkedin fa-2x"></i>
+                  <i class="fa fa-instagram fa-2x"></i>
+              
+              </div>
+          </div>
+        </div>
+      </div>
+
+  <!--footer end-->
 </body>
 
 
