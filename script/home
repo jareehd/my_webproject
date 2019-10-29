@@ -1,0 +1,19 @@
+$(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('filter');
+        
+        if(value == "all")
+        {
+            $('.column').show('1000');
+        }
+        else
+        {
+           $(".column").not('.'+value).hide('3000');
+            $('.column').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+
+});
